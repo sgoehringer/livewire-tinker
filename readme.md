@@ -7,5 +7,9 @@ This is just a playground to play around with [Livewire](https://github.com/cale
 - See how it works
 - Share with some friends
 
+## Projects
+- Counter (Essentially right from the docs)
+
 ## References
+- [Livewire Documentation](https://livewire-framework.com/docs/quickstart/) 
 
