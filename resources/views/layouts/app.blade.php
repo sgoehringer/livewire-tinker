@@ -74,7 +74,19 @@
         </nav>
 
         <main class="py-4">
-            @yield('content')
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        @yield('content')
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item list-group-item-light">Home</li>
+                          <li class="list-group-item list-group-item-light">Counter Project</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </body>

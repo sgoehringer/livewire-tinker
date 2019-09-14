@@ -24,7 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        Log::channel('slack-info')->info('Home accessed');
+        // Quick message to confirm slack onload
+        Log::channel('slack-info')->info('Livewire Tinker - Home accessed');
+
         return view('home');
     }
 }
