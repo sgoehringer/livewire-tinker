@@ -12,7 +12,7 @@ class Counter extends Component
     public $time;
 
 
-    public function increment($now)
+    public function increment()
     {
     		
     		// Get the current count
@@ -51,7 +51,7 @@ class Counter extends Component
     public function render()
     {
 
-        $this->time = strval(Carbon::now());
+        $this->time = "Render on " .Carbon::now()->subHours(4)->format('l jS \\of F Y \\a\\t h:i:s A');
 
         return view('livewire.counter');
     }
