@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Log;
 
-class HomeController extends Controller
+class CounterController extends Controller
 {
+    
     /**
      * Create a new controller instance.
      *
@@ -27,6 +27,6 @@ class HomeController extends Controller
         // Quick message to confirm slack onload
         //Log::channel('slack-info')->info('Livewire Tinker - Home accessed');
 
-        return view('home');
+        return view('counter');
     }
 }

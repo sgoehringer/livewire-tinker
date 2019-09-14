@@ -80,9 +80,9 @@
                         @yield('content')
                     </div>
                     <div class="col-md-3">
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item list-group-item-light">Home</li>
-                          <li class="list-group-item list-group-item-light">Counter Project</li>
+                        <ul class="list-group">
+                          <a href="{{ route('home') }}" class="list-group-item list-group-item-light">Home</a>
+                          <a href="{{ route('counter-index') }}" class="list-group-item list-group-item-light">Counter Project</a>
                         </ul>
                     </div>
                 </div>
